@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  dubbo:
+    application:
+      name: consumer
+    registry:
+      address: zookeeper://10.10.10.188:2181
